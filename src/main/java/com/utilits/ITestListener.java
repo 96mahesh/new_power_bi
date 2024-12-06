@@ -2,6 +2,8 @@ package com.utilits;
 
 import java.io.IOException;
 import org.testng.ITestResult;
+
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.model.Media;
 
@@ -16,7 +18,7 @@ public class ITestListener implements org.testng.ITestListener {
 		try {
 			Media mediaModel = MediaEntityBuilder.createScreenCaptureFromBase64String(Browser.takeScreenShot()).build();
 			ExtentReportManager.logScreenshot(mediaModel);
-		   MediaEntityBuilder.createScreenCaptureFromPath(Browser.capcturingPicture("image 1"), "Power_Bi");
+			MediaEntityBuilder.createScreenCaptureFromPath(Browser.capcturingPicture("image 1"), "RB_Auction");
 			ExtentReportManager.logScreenshot(mediaModel);
 		} catch (IOException e) {
 			

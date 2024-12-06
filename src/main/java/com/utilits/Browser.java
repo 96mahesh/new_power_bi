@@ -18,7 +18,6 @@ public class Browser {
 
 	public static WindowsDriver<WebElement> driver;
 	
-	
 	public static WindowsDriver<WebElement> launchPowerBi() throws IOException {
 		Desktop desktop = Desktop.getDesktop();
 		desktop.open(new File("C:\\Program Files (x86)\\Windows Application Driver\\WinAppDriver.exe"));

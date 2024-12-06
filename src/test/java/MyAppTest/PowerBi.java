@@ -1,6 +1,5 @@
 package MyAppTest;
 
-
 import java.io.IOException;
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -42,6 +41,7 @@ public class PowerBi{
 		driver.findElement(By.xpath("//Button[@ClassName='splitPrimaryButton root-269'][@Name='Get data']")).click();
 		driver.findElement(By.xpath("//Button[@Name='Connect']//Text[@Name='Connect']")).click();
 		Thread.sleep(2000);
+		driver.findElement(By.xpath("//TreeItem[@Name='Downloads (pinned)']")).click();
 		driver.findElement(By.xpath("//ListItem[@ClassName='UIItem'][@Name='FSI-2023-DOWNLOAD']")).click();
 		driver.findElement(By.xpath("//SplitButton[@ClassName='Button'][@Name='Open']")).click();
 		Thread.sleep(5);

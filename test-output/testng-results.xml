@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-27T12:45:31 IST" name="Suite" finished-at="2024-11-27T12:49:38 IST" duration-ms="247461">
+  <suite started-at="2024-12-06T10:28:09 IST" name="Default suite" finished-at="2024-12-06T10:32:46 IST" duration-ms="276949">
     <groups>
     </groups>
-    <test started-at="2024-11-27T12:45:31 IST" name="Test" finished-at="2024-11-27T12:49:38 IST" duration-ms="247461">
+    <test started-at="2024-12-06T10:28:09 IST" name="Default test" finished-at="2024-12-06T10:32:46 IST" duration-ms="276949">
       <class name="MyAppTest.PowerBi">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MyAppTest.PowerBi@6d167f58]" started-at="2024-11-27T12:45:31 IST" name="setUp" finished-at="2024-11-27T12:45:41 IST" duration-ms="10279" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MyAppTest.PowerBi@273444fe]" started-at="2024-12-06T10:28:09 IST" name="setUp" finished-at="2024-12-06T10:28:13 IST" duration-ms="4150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkEditFunctionality()[pri:0, instance:MyAppTest.PowerBi@6d167f58]" started-at="2024-11-27T12:45:41 IST" name="checkEditFunctionality" finished-at="2024-11-27T12:49:36 IST" duration-ms="235181" status="PASS">
+        <test-method signature="checkEditFunctionality()[pri:0, instance:MyAppTest.PowerBi@273444fe]" started-at="2024-12-06T10:28:13 IST" name="checkEditFunctionality" finished-at="2024-12-06T10:32:45 IST" duration-ms="271777" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkEditFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyAppTest.PowerBi@6d167f58]" started-at="2024-11-27T12:49:37 IST" name="tearDown" finished-at="2024-11-27T12:49:38 IST" duration-ms="756" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:MyAppTest.PowerBi@273444fe]" started-at="2024-12-06T10:32:45 IST" name="tearDown" finished-at="2024-12-06T10:32:46 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- MyAppTest.PowerBi -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
